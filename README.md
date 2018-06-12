@@ -1,2 +1,3 @@
 # docker-env
-docker linux componses
+
+dos2unix build.sh

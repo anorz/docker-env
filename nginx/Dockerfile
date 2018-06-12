@@ -2,7 +2,6 @@ FROM alpine:3.6
 
 MAINTAINER anorz <i@anorz.com>
 
-
 RUN  echo http://mirrors.ustc.edu.cn/alpine/v3.6/main > /etc/apk/repositories 
 RUN  echo http://mirrors.ustc.edu.cn/alpine/v3.6/community >> /etc/apk/repositories
 RUN  apk update --no-cache
